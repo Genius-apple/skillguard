@@ -69,9 +69,20 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details. Please read our [Code of Con
 ## 🗺️ Roadmap
 
 - [x] v0.1 — static scanner, scoring, CLI, JSON output
-- [ ] v0.2 — GitHub Action (`skillguard/action@v1`) to gate skill PRs
+- [x] v0.2 — GitHub Action: [`Genius-apple/skillguard-action`](https://github.com/Genius-apple/skillguard-action)
 - [ ] v0.3 — skill registry metadata (author, provenance, install source)
 - [ ] v0.4 — sandboxed dry-run execution of skill scripts
+
+## 🔁 Use in CI (GitHub Action)
+
+Gate skill PRs in your repo:
+
+```yaml
+- uses: Genius-apple/skillguard-action@v1
+  with:
+    path: .
+    min-score: 80
+```
 
 ## 📄 License
 
