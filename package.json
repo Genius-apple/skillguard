@@ -1,5 +1,5 @@
 {
-  "name": "skillguard",
+  "name": "@genius-apple/skillguard",
   "version": "0.1.0",
   "description": "Security & quality audit CLI for Agent Skills. Audit before you `npx skills add`.",
   "type": "module",

@@ -6,8 +6,8 @@ The Agent Skill ecosystem is exploding — `npx skills add <repo>` drops third-p
 
 SkillGuard is a zero-dependency CLI that statically scans Skill definition files for **security risks** (destructive commands, secret leakage, download-and-execute, persistence hooks, prompt injection) and **quality issues** (missing frontmatter, weak descriptions), then outputs a **0–100 trust score**.
 
-[![CI](https://github.com/YOUR_USERNAME/skillguard/actions/workflows/ci.yml/badge.svg)](../../actions)
-[![npm](https://img.shields.io/npm/v/skillguard)](https://www.npmjs.com/package/skillguard)
+[![CI](https://github.com/Genius-apple/skillguard/actions/workflows/ci.yml/badge.svg)](../../actions)
+[![npm](https://img.shields.io/npm/v/@genius-apple%2Fskillguard)](https://www.npmjs.com/package/@genius-apple/skillguard)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## ✨ Features
@@ -21,9 +21,9 @@ SkillGuard is a zero-dependency CLI that statically scans Skill definition files
 ## 📦 Install
 
 ```bash
-npm install -g skillguard
+npm install -g @genius-apple/skillguard
 # or run once
-npx skillguard <path>
+npx @genius-apple/skillguard <path>
 ```
 
 ## 🚀 Usage
